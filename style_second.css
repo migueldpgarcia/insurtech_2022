@@ -23,10 +23,6 @@ header{
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
     min-width: 1000px;
 }
-#Sobre_O_Mag_Club_topo
-{
-    color: rgb(80, 79, 79);
-}
 
 #superior_esq{
     width: 60%;
@@ -133,137 +129,88 @@ a1{
 
 }
 main{
-    width: 100%;
+    width: 92%;
     height: 80%;
     min-height: 550px;
     min-width: 1000px;
     margin: 0px auto;
 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    padding-left: 8%;
     
+    
+    
+}
 
     
-    
-}
-
-#main_left
-{
-    height: 100%;
-    min-height: 550px;
-    width: 45%;
-    padding-left: 5%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(51, 43, 56),rgb(60, 70, 70));*/
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-#main_right
-{
-    height: 100%;
-    min-height: 550px;
-    width: 50%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(15, 104, 104),rgb(22, 59, 59));*/
-    display: flex;
-    flex-wrap: wrap-reverse;
-
-}
-#mulher_celular{
-    height:90%;
-    display: flex;
-    padding-left: 15%;
-}
-#main_left_up
-{
-    height: 60%;
+#main_up{
+    height: 62%;
     width: 100%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(78, 126, 51),rgb(35, 134, 40)); */
     display: flex;
     flex-direction: column;
-
-
-}
-#a5{
-    height: 80%;
-    width: 70%;
-    padding-top: 20%;
-    
-    min-height: 200px;
-    min-width: 400px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     justify-content: space-evenly;
     font-family: Mulish, sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 120%;
-    /*background-color: black;*/
-    text-align: center;
-    text-align: left;
-    
-    /* or 77px */
+    font-weight: normal;
 
-    text-transform: uppercase; 
+}
+
+
+
+
+#a5 {
+
+
+    font-size: 25px;
+    line-height: 45px;
+    color: #53BABE;
+}
+#a6{
+    font-size: 15px;
     color: #504F4F;
-    text-align: justify;
-}
-#a8, a10{
-    color:#53BABE
-}
-#main_left_down{
-
-    height: 10%;
-    width: 40%;
-    /*background-color: rgb(33, 133, 124);*/
-    display: flex;
-    flex-direction: row;
-    
-    align-items: center;
-    
-    padding-top: 5%;
-    
-
-    
-  
-}
-
-#acesse_botao{
-    height: 30px;
-    width: 120px;
-    margin-right: 10px;
-    background: #504F4F;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    align-items: center;
-    font-family: Mulish,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 24px;
-    color: white;
-    cursor: pointer;
+    font-weight: bold;
 
 }
 
-
-#Uma_iniciativa_Mag_seguros{
-
+.setinha_direita{
+    height: 15px;
+}
+#div_a8{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    font-family: Mulish,sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    color: black;
+
+
+}
+#main_down{
+    display: flex;
+    width: 100%;
+    height: 38%;
+    flex-direction: row;
+
+
+}
+#main_down_left{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #53BABE;
+    font-weight: 550;
+    font-size: 30px;
+    font-family: Mulish, sans-serif;
+}
+#a12{
+    padding-top: 10px;
+}
+#main_down_right{
+    width: 57%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+#mulher_sacola_compras{
+    width: 100%;
 }
