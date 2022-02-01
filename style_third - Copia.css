@@ -35,8 +35,9 @@ header{
     background-image:linear-gradient(90deg,rgb(243, 250, 250),rgb(243, 250, 250));
     border: rgb(71, 131, 131);
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
+    justify-content: flex-start;
+
 
 }
 #superior_dir{
@@ -139,130 +140,140 @@ main{
     margin: 0px auto;
 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    
-
-    
-    
-}
-
-#main_left
-{
-    height: 100%;
-    min-height: 550px;
-    width: 45%;
-    padding-left: 5%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(51, 43, 56),rgb(60, 70, 70));*/
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-#main_right
-{
-    height: 100%;
-    min-height: 550px;
-    width: 50%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(15, 104, 104),rgb(22, 59, 59));*/
-    display: flex;
-    flex-wrap: wrap-reverse;
-
-}
-#mulher_celular{
-    height:90%;
-    display: flex;
-    padding-left: 15%;
-}
-#main_left_up
-{
-    height: 60%;
-    width: 100%;
-    min-width: 300px;
-    /*background-image: linear-gradient(90deg,rgb(78, 126, 51),rgb(35, 134, 40)); */
-    display: flex;
-    flex-direction: column;
-
-
-}
-#a5{
-    height: 80%;
-    width: 70%;
-    padding-top: 20%;
-    
-    min-height: 200px;
-    min-width: 400px;
-
-    display: flex;
-    flex-direction: column;
+    /*background-color: blue;*/
     justify-content: center;
-    justify-content: space-evenly;
-    font-family: Mulish, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 120%;
-    /*background-color: black;*/
-    text-align: center;
-    text-align: left;
-    
-    /* or 77px */
-
-    text-transform: uppercase; 
-    color: #504F4F;
-    text-align: justify;
-}
-#a8, a10{
-    color:#53BABE
-}
-#main_left_down{
-
-    height: 10%;
-    width: 40%;
-    /*background-color: rgb(33, 133, 124);*/
-    display: flex;
-    flex-direction: row;
-    
-    align-items: center;
-    
-    padding-top: 5%;
-    
-
-    
-  
-}
-
-#acesse_botao{
-    height: 30px;
-    width: 120px;
-    margin-right: 10px;
-    background: #504F4F;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    align-items: center;
     font-family: Mulish,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 24px;
-    color: white;
-    cursor: pointer;
+    
+    
+}
+#main_margin{
+    width:85%;
+    height: 90%;
+    display:flex;
+    flex-direction: column;
+    /*background-color: rgb(0, 0, 0);*/
 
+}
+#main_up {
+    width: 100%;
+    height: 40%;
+   /* background-color: rgb(116, 92, 92);*/
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+#main_down{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(133, 168, 36);
+}
+#main_up_up{
+    width: 100%;
+    height: 25%;
+    /*background-color: rgb(12, 15, 20);*/
+    display: flex;
+    justify-content: space-between;
+
+}
+#main_up_up_desconto{
+
+    color: #53BABE;
+    font-size: 30px;
+    font-family: Mulish, sans-serif;
+}
+
+/*main up up form */
+form {
+    border-radius: 0.1em;
+    padding: 0.3em;
+    
 }
 
 
-#Uma_iniciativa_Mag_seguros{
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 2.0em;
+    border: none;
+    padding: 0.2em;
+    background: rgb(229, 245, 245)
+  
+ 
+    
+}
 
+form button {
+    cursor: pointer;
+    background: none;
+    color: gray;
+    
+}
+
+#main_up_down {
+
+    width: 100%;
+    height: 60%;
+    /*background-color: rgb(71, 131, 131);*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.Categoria{
+    height: 90%;
+    width: 10%;
+    min-width: 110px;
+    /*background-color: seagreen;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #504F4F;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
     text-align: center;
-    font-family: Mulish,sans-serif;
-    font-style: normal;
+
+}
+.categoria_up{
+
+    height:45%;
+    width: 100%;
+}
+.Categoria_down{
+    /*background-color: rgb(117, 65, 41);*/
+    height: 55%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#main_down_up{
+    width: 100%;
+    min-width: 1000px;
+    height: 92%;
+    background-color: sienna;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+#main_down_down{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
     font-size: 11px;
-    color: black;
+}
+.itens{
+    width: 21%;
+    min-width: 220px;
+    height: 95;
+    background-color: silver;
+    border-radius: 15px;
 }

@@ -23,6 +23,10 @@ header{
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
     min-width: 1000px;
 }
+.Sobre_O_Mag_Club_topo
+{
+    color: rgb(80, 79, 79);
+}
 
 #superior_esq{
     width: 60%;
@@ -31,8 +35,9 @@ header{
     background-image:linear-gradient(90deg,rgb(243, 250, 250),rgb(243, 250, 250));
     border: rgb(71, 131, 131);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
 
 }
 #superior_dir{
@@ -54,8 +59,8 @@ header{
     margin-left: 5%;
 }
 #superior_esq_esq{
-    width: 30%;
-    min-width: 200px;
+    width: 20%;
+    min-width: 180px;
     height: 100%;
     display:flex;
     flex-direction: row;
@@ -67,12 +72,11 @@ header{
 
 }
 #superior_esq_dir{
-    width: 70%;
-    min-width: 480px;
+    width: 50%;
+    min-width: 420px;
     height: 100%;
     display:flex;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 15px;
    
