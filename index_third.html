@@ -21,10 +21,6 @@
                 <div id="line1_div">
                     <img id="reta_logo" src="assets/Line 1.png">
                 </div>
-                <div id="logo_texto">
-                    <a1> Uma Iniciativa Mag Seguros </a1>
-                   
-                </div>
 
 
             </div>
@@ -37,7 +33,7 @@
         </div>
         <div id="superior_dir">
             <div id="Ola_Pedro">
-                <a3> Olá Pedro </a3>
+                <a3> Olá Sônia! </a3>
                 <div id="a4_div">
                     <a4> Nível 3 - MAG pontos</a4>
                     <img id="seta_usuario" src="assets/Vector.png">
@@ -133,35 +129,100 @@
                 <div id=main_down_up>
                     <div class="itens">
                         <div class="itens_cima" >
-                            
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/liquidificador_item.png"  class="open-button" onclick="openForm()">
+                                </div>
+                                <a>Liquidificador Smoothie Juice Glass</a>
+                                <a  style="text-decoration: line-through">R$ 369,00</a>
+                            </div>
                         </div>
                         <div class="itens_baixo">
-
+                            <a class="texto_item_baixo">R$ 158,00 </a>
                         </div>
 
                     </div>
                     <div class="itens">
                         <div class="itens_cima">
-
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/sofa_item.png"  class="open-button" onclick="openForm()">
+                                </div>
+                                <a>Sofá-cama 4 lugares 
+                                    branco</a>
+                                <a  style="text-decoration: line-through">R$ 1.469,00</a>
+                            </div>
                         </div>
                         <div class="itens_baixo">
-
+                            <a class="texto_item_baixo">R$ 1.158,00 </a>
                         </div>
                     </div>
                     <div class="itens">
                         <div class="itens_cima">
-
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/faqueiro_tramontina_item.png" class="open-button" onclick="openForm()">
+                                    <div class="form-popup" id="myForm">
+                                        <form action="/action_page.php" class="form-container">
+                                          <h1>Questionário</h1>
+                                      
+                                          <label for="email"><b>Pergunta 1</b></label>
+                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="email" required>
+                                      
+                                          <label for="psw"><b>Pergunta 2</b></label>
+                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="psw" required>
+                                      
+                                          <button type="submit" class="btn">Enviar Questionário</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <a>Faqueiro tramontina
+                                    6 peças</a>
+                                <a  style="text-decoration: line-through">R$ 69,00</a>
+                            </div>
                         </div>
                         <div class="itens_baixo">
-
+                            <a class="texto_item_baixo">R$ 48,00 </a>
                         </div>
                     </div>
                     <div class="itens">
                         <div class="itens_cima">
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/berco_item.png" class="open-button" onclick="openForm()">
+                                    <div class="form-popup" id="myForm">
+                                        <form action="/action_page.php" class="form-container">
+                                          <h1>Questionário</h1>
+                                      
+                                          <label for="email"><b>Pergunta 1</b></label>
+                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="email" required>
+                                      
+                                          <label for="psw"><b>Pergunta 2</b></label>
+                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="psw" required>
+                                      
+                                          <button type="submit" class="btn">Enviar Questionário</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                        </form>
+                                    </div>
 
+                                    <script>
+                                        function openForm() {
+                                          document.getElementById("myForm").style.display = "block";
+                                        }
+                                        
+                                        function closeForm() {
+                                          document.getElementById("myForm").style.display = "none";
+                                        }
+                                    </script>
+                                </div>
+                                <a>Berço madeira eco wood
+                                    padrão americano</a>
+                                <a  style="text-decoration: line-through">R$ 2.469,00</a>
+                            </div>
                         </div>
                         <div class="itens_baixo">
-
+                            <a class="texto_item_baixo">R$ 2.158,00 </a>
                         </div>
                     </div>
 
