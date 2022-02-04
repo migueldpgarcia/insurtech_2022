@@ -361,7 +361,7 @@ form button {
 .form-popup_2 {
     display: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 35%;
     right: 35%;
     border: 3px solid #f1f1f1;
     min-width: 350px;
