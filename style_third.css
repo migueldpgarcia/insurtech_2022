@@ -361,11 +361,14 @@ form button {
 .form-popup_2 {
     display: none;
     position: fixed;
-    bottom: 35%;
-    right: 35%;
     border: 3px solid #f1f1f1;
     min-width: 350px;
     z-index: 9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
   }
 /* Add styles to the form container */
 .form-container {
@@ -373,6 +376,7 @@ form button {
   padding: 10px;
   background-color: white;
 }
+
 
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
