@@ -60,21 +60,23 @@
                 <div id="main_up_down">
                     <div class="Categoria">
                         <div class="Categoria_up">
-                            <img class="categoria_img" src="assets/categoria_casinha.png">
+                            <a href="index_third.html"><img itemprop="image" class="categoria_img" src="assets/categoria_casinha_azul.png"">  
+                            </a>
                         </div>
                         <div class="Categoria_down"> 
-                            <a>Home </a>
+                            <a href="index_third - Copia.html" style="color: #53BABE ; text-decoration:none"> Home </a>
 
                         </div>
                     </div>
                     
                     <div class="Categoria">
                         <div class="Categoria_up">
-                            <img class="categoria_img" src="assets/categoria_saude.png">
+                            <a href="index_third - Copia.html"><img itemprop="image" class="categoria_img" src="assets/categoria_saude.png">  
+                            </a>
                         </div>
                         <div class="Categoria_down">
-                            <a>Saúde e</a>
-                            <a>Bem Estar</a>                            
+                            <a href="index_third - Copia.html" style="color:#504F4F;; text-decoration:none">Saúde e</a>
+                            <a href="index_third - Copia.html" style="color:#504F4F;; text-decoration:none">Bem Estar</a>                            
                         </div>
 
                     </div>
@@ -162,20 +164,6 @@
                             <div class= div_itens_cima_centralizador>
                                 <div class="div_itens_imagem">
                                     <img class="itens_imagem" src="assets/faqueiro_tramontina_item.png" class="open-button" onclick="openForm()">
-                                    <div class="form-popup" id="myForm">
-                                        <form action="/action_page.php" class="form-container">
-                                          <h1>Questionário</h1>
-                                      
-                                          <label for="email"><b>Pergunta 1</b></label>
-                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="email" required>
-                                      
-                                          <label for="psw"><b>Pergunta 2</b></label>
-                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="psw" required>
-                                      
-                                          <button type="submit" class="btn">Enviar Questionário</button>
-                                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                                        </form>
-                                    </div>
                                 </div>
                                 <a>Faqueiro tramontina
                                     6 peças</a>
@@ -193,16 +181,31 @@
                                     <img class="itens_imagem" src="assets/berco_item.png" class="open-button" onclick="openForm()">
                                     <div class="form-popup" id="myForm">
                                         <form action="/action_page.php" class="form-container">
-                                          <h1>Questionário</h1>
-                                      
-                                          <label for="email"><b>Pergunta 1</b></label>
-                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="email" required>
-                                      
-                                          <label for="psw"><b>Pergunta 2</b></label>
-                                          <input type="text" placeholder="Responda para ganhar +50 pontos" name="psw" required>
-                                      
-                                          <button type="submit" class="btn">Enviar Questionário</button>
-                                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                          <h1>Gostaria de incluir um Cartão virtual de presente?</h1>
+                                                             
+                                          <label for="psw"><b>Escolha um modelo de cartão virtual</b></label>
+                                          <div class='objetiva'>
+                                            <label for='option-1'>
+                                                <input type='radio' placeholder="Responda para ganhar +100 pontos" name='option' value='Sim' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para familiar </label>
+                                              <label for='option-1'>
+                                                <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para amigos </label>
+                                              <label for='option-1'>
+                                                <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para relacionamento </label>
+                                          </div>
+                                          <button type="button" class="btn" onclick="openForm_2()">Criar Cartão</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm()">Não criar Cartão</button>
+                                        </form>
+                                    </div>
+                                    <div class="form-popup_2" id="myForm_2">
+                                        <form action="/action_page.php" class="form-container">
+                                          <h1>Gostaria de responder um questionário?</h1>
+                                                             
+                                          <label for="psw"><b>Responda para ganhar +100 pontos</b></label>
+                                          <button type="button" class="btn" onclick="openForm_2()"">Responder Formulário</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm_2()">Fechar</button>
                                         </form>
                                     </div>
 
@@ -213,6 +216,13 @@
                                         
                                         function closeForm() {
                                           document.getElementById("myForm").style.display = "none";
+                                        }
+                                        function openForm_2() {
+                                          document.getElementById("myForm_2").style.display = "block";
+                                        }
+                                        
+                                        function closeForm_2() {
+                                          document.getElementById("myForm_2").style.display = "none";
                                         }
                                     </script>
                                 </div>

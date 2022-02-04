@@ -358,7 +358,15 @@ form button {
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
-
+.form-popup_2 {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 500px;
+    border: 3px solid #f1f1f1;
+    min-width: 300px;
+    z-index: 9;
+  }
 /* Add styles to the form container */
 .form-container {
   max-width: 300px;
@@ -401,4 +409,13 @@ form button {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+
+/* FIM DA PARTE DO FORM */
+
+.objetiva{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
 }

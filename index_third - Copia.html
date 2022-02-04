@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mag Club | Insurtech</title>
     <script src="https://kit.fontawesome.com/1e592b5726.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style_third.css">
+    <link rel="stylesheet" href="style_third - Copia.css">
 </head>
 <body>
     <header>
@@ -33,7 +33,7 @@
         </div>
         <div id="superior_dir">
             <div id="Ola_Pedro">
-                <a3> Olá Pedro </a3>
+                <a3> Olá Sônia! </a3>
                 <div id="a4_div">
                     <a4> Nível 3 - MAG pontos</a4>
                     <img id="seta_usuario" src="assets/Vector.png">
@@ -60,21 +60,23 @@
                 <div id="main_up_down">
                     <div class="Categoria">
                         <div class="Categoria_up">
-                            <img class="categoria_img" src="assets/categoria_casinha.png">
+                            <a href="index_third.html"><img itemprop="image" class="categoria_img" src="assets/categoria_casinha.png"">  
+                            </a>
                         </div>
                         <div class="Categoria_down"> 
-                            <a>Home </a>
+                            <a href="index_third.html" style="color:#504F4F;; text-decoration:none">Home </a>
 
                         </div>
                     </div>
                     
                     <div class="Categoria">
                         <div class="Categoria_up">
-                            <img class="categoria_img" src="assets/categoria_saude.png">
+                            <a href="index_third - Copia.html"><img itemprop="image" class="categoria_img" src="assets/categoria_saude_azul.png">  
+                            </a>
                         </div>
                         <div class="Categoria_down">
-                            <a>Saúde e</a>
-                            <a>Bem Estar</a>                            
+                            <a href="index_third - Copia.html" style="color: #53BABE ; text-decoration:none">Saúde e</a>
+                            <a href="index_third - Copia.html" style="color: #53BABE ; text-decoration:none">Bem Estar</a>                            
                         </div>
 
                     </div>
@@ -128,21 +130,111 @@
             <div id="main_down">
                 <div id=main_down_up>
                     <div class="itens">
+                        <div class="itens_cima" >
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/fralda_item.png"  class="open-button" onclick="openForm()">
+                                </div>
+                                <a>Fralda Pampers baby-dry recém nascido</a>
+                                <a  style="text-decoration: line-through">R$ 59,90</a>
+                            </div>
+                        </div>
+                        <div class="itens_baixo">
+                            <a class="texto_item_baixo">R$ 38,90 </a>
+                        </div>
 
                     </div>
                     <div class="itens">
-
+                        <div class="itens_cima">
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/hidrante_bebe.png"  class="open-button" onclick="openForm()">
+                                </div>
+                                <a>SBaby Dove sensitive moisture sem fragrânci</a>
+                                <a  style="text-decoration: line-through">R$ 39,90</a>
+                            </div>
+                        </div>
+                        <div class="itens_baixo">
+                            <a class="texto_item_baixo">R$ 28,50 </a>
+                        </div>
                     </div>
                     <div class="itens">
-
+                        <div class="itens_cima">
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/johnson_locao.png" class="open-button" onclick="openForm()">
+                                </div>
+                                <a>Johnsons baby loção e oléo corporal</a>
+                                <a  style="text-decoration: line-through">R$ 39,00</a>
+                            </div>
+                        </div>
+                        <div class="itens_baixo">
+                            <a class="texto_item_baixo">R$ 29,00 </a>
+                        </div>
                     </div>
                     <div class="itens">
-
+                        <div class="itens_cima">
+                            <div class= div_itens_cima_centralizador>
+                                <div class="div_itens_imagem">
+                                    <img class="itens_imagem" src="assets/leite_formula_nan.png" class="open-button" onclick="openForm()">
+                                    <div class="form-popup" id="myForm">
+                                        <form action="/action_page.php" class="form-container">
+                                            <h1>Gostaria de incluir um Cartão virtual de presente?</h1>
+                                                               
+                                            <label for="psw"><b>Escolha um modelo de cartão virtual</b></label>
+                                            <div class='objetiva'>
+                                              <label for='option-1'>
+                                                  <input type='radio' placeholder="Responda para ganhar +100 pontos" name='option' value='Sim' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                Para familiar </label>
+                                                <label for='option-1'>
+                                                  <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                Para amigos </label>
+                                                <label for='option-1'>
+                                                  <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                Para relacionamento </label>
+                                            </div>
+                                            <button type="button" class="btn" onclick="openForm_2()">Criar Cartão</button>
+                                            <button type="button" class="btn cancel" onclick="closeForm()">Não criar Cartão</button>
+                                          </form>
+                                    </div>
+                                    <div class="form-popup_2" id="myForm_2">
+                                        <form action="/action_page.php" class="form-container">
+                                          <h1>Gostaria de responder um questionário?</h1>
+                                                             
+                                          <label for="psw"><b>Responda para ganhar +100 pontos</b></label>
+                                          <button type="button" class="btn" onclick="openForm_2()"">Responder Formulário</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm_2()">Fechar</button>
+                                        </form>
+                                    </div>
+                                    <script>
+                                        function openForm() {
+                                          document.getElementById("myForm").style.display = "block";
+                                        }
+                                        
+                                        function closeForm() {
+                                          document.getElementById("myForm").style.display = "none";
+                                        }
+                                        function openForm_2() {
+                                          document.getElementById("myForm_2").style.display = "block";
+                                        }
+                                        
+                                        function closeForm_2() {
+                                          document.getElementById("myForm_2").style.display = "none";
+                                        }
+                                    </script>
+                                </div>
+                                <a>Leite formula NAN optipro      3 meses</a>
+                                <a  style="text-decoration: line-through">R$ 45,90</a>
+                            </div>
+                        </div>
+                        <div class="itens_baixo">
+                            <a class="texto_item_baixo">R$ 35,90 </a>
+                        </div>
                     </div>
 
                 </div>
                 <div id="main_down_down">
-                    <a>mostrar mais</a>
+                    <a href="">mostrar mais</a>
                 </div>
 
             </div>
