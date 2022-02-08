@@ -422,3 +422,7 @@ form button {
     flex-direction: column;
     padding: 5%;
 }
+
+#answer_form{
+    color: white;
+}
