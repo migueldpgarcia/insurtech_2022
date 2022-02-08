@@ -268,3 +268,8 @@ main{
     font-size: 11px;
     color: black;
 }
+#termos_cond{
+    height:21%;
+    display: flex;
+    flex-direction: column-reverse;
+}
