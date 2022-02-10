@@ -179,33 +179,117 @@
                                     <img class="itens_imagem" src="assets/leite_formula_nan.png" class="open-button" onclick="openForm()">
                                     <div class="form-popup" id="myForm">
                                         <form action="/action_page.php" class="form-container">
-                                            <h1>Gostaria de incluir um Cartão virtual de presente?</h1>
-                                                               
-                                            <label for="psw"><b>Escolha um modelo de cartão virtual</b></label>
-                                            <div class='objetiva'>
+                                          <h1>Gostaria de incluir um Cartão virtual de presente?</h1>
+                                                             
+                                          <label for="psw"><b>Escolha um modelo de cartão virtual</b></label>
+                                          <div class='objetiva'>
+                                            <label for='option-1'>
+                                                <input type='radio' placeholder="Responda para ganhar +100 pontos" name='option' value='Sim' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para familiar </label>
                                               <label for='option-1'>
-                                                  <input type='radio' placeholder="Responda para ganhar +100 pontos" name='option' value='Sim' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
-                                                Para familiar </label>
-                                                <label for='option-1'>
-                                                  <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
-                                                Para amigos </label>
-                                                <label for='option-1'>
-                                                  <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
-                                                Para relacionamento </label>
-                                            </div>
-                                            <button type="button" class="btn" onclick="openForm_2(); closeForm();">Criar Cartão</button>
-                                            <button type="button" class="btn cancel" onclick="closeForm()">Não criar Cartão</button>
-                                          </form>
+                                                <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para amigos </label>
+                                              <label for='option-1'>
+                                                <input type='radio' name='option' value='Nao' id='option-14' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                              Para relacionamento </label>
+                                          </div>
+                                          <button type="button" class="btn" onclick="openForm_2(); closeForm();">Criar Cartão</button>
+                                          <button type="button" class="btn cancel" onclick="closeForm()">Não criar Cartão</button>
+                                        </form>
                                     </div>
                                     <div class="form-popup_2" id="myForm_2">
                                         <form action="/action_page.php" class="form-container">
-                                          <h1>Temos um questionário para você responder</h1>
+                                            <h1>Temos um questionário para você responder</h1>
                                                              
-                                          <label for="psw"><b>Responda para ganhar +100 pontos no Mag Club</b></label>
-                                          <button type="button" class="btn" onclick="window.open('https://forms.gle/4irD9x8np77sNFeJ7')" target="_blank" onclick="closeForm_2()">
-                                            Responder Questionário
-                                          </button>
-                                          <button type="button" class="btn cancel" onclick="closeForm_2()">Fechar</button>
+                                            <label for="psw"><b>Responda para ganhar +100 pontos no Mag Club</b></label>
+                                            <button type="button" class="btn" onclick="openForm_3(); closeForm_2();">
+                                               Responder Questionário
+                                            </button>
+                                            <button type="button" class="btn cancel" onclick="closeForm_2()">Fechar</button>
+                                        </form>
+                                    </div>
+                                    <div class="form-popup_3" id="myForm_3">
+                                        <form action="/action_page.php" class="form-container">
+                                            <h1>Questionário</h1>
+                                            <label for="psw"><b>Este item é para a sua casa? </b></label>  
+                                            <div class='objetiva'>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_1' value='Sim' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    Sim </label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_1' value='Nao' id='option-1-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    Nao </label>                                                
+                                            </div>
+                                            <label for="psw"><b>Atualmente quem mora com você?  </b></label>  
+                                            <div class='objetiva'>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_2' value='Pais' id='option-2-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    Pais/avós</label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_2' value='Filhos' id='option-2-2' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    Cônjuge e Filhos </label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_2' value='Amigos' id='option-2-3' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    Amigos </label>
+                                            </div>
+                                            <button type="button" class="btn" onclick="closeForm_3(); openForm_4();">
+                                                Continuar
+                                             </button>
+                                            <button type="button" class="btn cancel" onclick="closeForm_3()">Fechar</button>                
+                                        </form>
+                                    </div>
+                                    <div class="form-popup_4" id="myForm_4">
+                                        <form action="/action_page.php" class="form-container">
+                                            <label for="psw"><b>Quantas pessoas residem em sua residência? </b></label>  
+                                            <div class='objetiva'>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_3' value='1' id='option-3-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    1</label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_3' value='2' id='option-3-2' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    2 </label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_3' value='3' id='option-3-3' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    3 </label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_3' value='4' id='option-3-4' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    4 </label>
+                                                <label for='option-1'>
+                                                    <input type='radio' name='option_3' value='5' id='option-3-5' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                    5 ou mais</label>                                                    
+                                            </div>
+                                            <form action="/action_page.php" class="form-container">
+                                                <label for="psw"><b>Atualmente você está passando por mudanças em sua vida por causa de:  </b></label>  
+                                                <div class='objetiva'>
+                                                    <label for='option-1'>
+                                                        <input type='radio' name='option_4' value='Novos Filhos' id='option-4-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                        Novos Filhos</label>
+                                                    <label for='option-1'>
+                                                        <input type='radio' name='option_4' value='Relacionamentos' id='option-4-2' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                        Relacionamentos </label>
+                                                    <label for='option-1'>
+                                                        <input type='radio' name='option_4' value='Perda de parentes' id='option-4-3' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                        Perda de parentes </label>
+                                                    <label for='option-1'>
+                                                        <input type='radio' name='option_4' value='Novos animais de estimação' id='option-4-4' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                        Novos animais de estimação </label>
+                                                    <label for='option-1'>
+                                                        <input type='radio' name='option' value='outros' id='option-4-5' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                                                        outros</label>                                                    
+                                                </div>
+    
+
+                                            <button type="button" class="btn" onclick="closeForm_4();openForm_5();">
+                                                Enviar Questionário
+                                             </button>
+                                            <button type="button" class="btn cancel" onclick="closeForm_4()">Fechar</button>                                                
+                                        </form>
+                                    </div>
+                                    <div class="form-popup_5" id="myForm_5">
+                                        <form action="/action_page.php" class="form-container">
+                                            <h1>Parabéns!</h1>
+                                            <a>100 pontos foram adicionados a sua conta Mag Club</a>
+                                            <button type="button" class="btn cancel" onclick="closeForm_5()">Fechar</button>                                                
                                         </form>
                                     </div>
                                     <script>
@@ -223,7 +307,26 @@
                                         function closeForm_2() {
                                           document.getElementById("myForm_2").style.display = "none";
                                         }
+                                        function openForm_3() {
+                                          document.getElementById("myForm_3").style.display = "block";
+                                        }
+                                        function closeForm_3() {
+                                          document.getElementById("myForm_3").style.display = "none";
+                                        }
+                                        function openForm_4() {
+                                          document.getElementById("myForm_4").style.display = "block";
+                                        }
+                                        function closeForm_4() {
+                                          document.getElementById("myForm_4").style.display = "none";
+                                        }
+                                        function openForm_5() {
+                                          document.getElementById("myForm_5").style.display = "block";
+                                        }
+                                        function closeForm_5() {
+                                          document.getElementById("myForm_5").style.display = "none";
+                                        }                                                                                    
                                     </script>
+
                                 </div>
                                 <a>Leite formula NAN optipro      3 meses</a>
                                 <a  style="text-decoration: line-through">R$ 45,90</a>

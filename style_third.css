@@ -370,6 +370,40 @@ form button {
     transform: translate(-50%, -50%);
     
   }
+  .form-popup_3 {
+    display: none;
+    position: fixed;
+    border: 3px solid #f1f1f1;
+    min-width: 350px;
+    z-index: 9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .form-popup_4 {
+    display: none;
+    position: fixed;
+    border: 3px solid #f1f1f1;
+    min-width: 350px;
+    z-index: 9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .form-popup_5 {
+    display: none;
+    position: fixed;
+    border: 3px solid #f1f1f1;
+    min-width: 350px;
+    z-index: 9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 /* Add styles to the form container */
 .form-container {
   max-width: 350px;
