@@ -403,7 +403,14 @@ form button {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+  .form-popup_PERFIL {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
 /* Add styles to the form container */
 .form-container {
   max-width: 350px;
@@ -459,4 +466,21 @@ form button {
 }
 #answer_form{
     color: white;
+}
+#seta_usuario{
+    height: 7px;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+
+.botao-de-fechar{
+
+    height: 20px;
+}
+
+.close_button_div{
+    height: 1px;
+    display: flex;
+    flex-direction: row-reverse;
 }

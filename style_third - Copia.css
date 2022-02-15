@@ -459,3 +459,14 @@ form button {
 #answer_form{
     color: white;
 }
+
+.botao-de-fechar{
+
+    height: 20px;
+}
+
+.close_button_div{
+    height: 1px;
+    display: flex;
+    flex-direction: row-reverse;
+}
